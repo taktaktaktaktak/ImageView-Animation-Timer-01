@@ -34,6 +34,7 @@ class ViewController: UIViewController {
     }
     @IBAction func stopBtnPressed(_ sender: Any) {
         print("stop Pressed")
+        myTimer.invalidate()
         count = 0
         //countLabel.text = String(count)
     }
